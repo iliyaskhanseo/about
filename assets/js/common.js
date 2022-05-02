@@ -688,7 +688,7 @@ $(document).ready(function() {
             email = $("#emailContact").val(),
             message = $("#messageContact").val();
 
-        var url = `https://api.whatsapp.com/send?phone=918077380314&text=*Name*%20${name}%0D%0A*Email*%20${email}%0D%0A*Message*%20${message}%0D%0A`;
+        var url = `https://api.whatsapp.com/send?phone=919557746458&text=*Name*%20${name}%0D%0A*Email*%20${email}%0D%0A*Message*%20${message}%0D%0A`;
         window.location.replace(url);
 
         // $.ajax({
