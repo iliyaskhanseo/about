@@ -732,7 +732,7 @@ $(document).ready(function() {
     }
 
     function fetchBlogs() {
-        fetch('https://websitehacked.in/wp-json/wp/v2/posts/?_embed')
+        fetch('https://iliyaskhan.com/wp-json/wp/v2/posts/?_embed')
             .then(response => response.json())
             .then(blogs => insertInPage(blogs))
     }
